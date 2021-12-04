@@ -1,0 +1,109 @@
+.mapContainer {
+  width: 975px;
+  height: 885px;
+}
+.mapContainer, .hexagonContainer {
+  position: relative;
+  --hexagonColor: white;
+}
+
+.trapezoidUpOut{
+  position: absolute;
+	border-bottom: 60px solid darkgray;
+	border-left: 33px solid transparent;
+	border-right: 33px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+.trapezoidDownOut{
+  position: absolute;
+  top: 60px;
+	border-top: 60px solid darkgray;
+	border-left: 33px solid transparent;
+	border-right: 33px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+.trapezoidUpIn{
+  top: 1.5px;
+  left: 2.5px;
+  position: absolute;
+	border-bottom: 58.5px solid var(--hexagonColor);
+	border-left: 31.5px solid transparent;
+	border-right: 31.5px solid transparent;
+	height: 0;
+	width: 97px;
+}
+
+.trapezoidDownIn{
+  position: absolute;
+  top: 60px;
+  left: 2.5px;
+	border-top: 58.5px solid var(--hexagonColor);
+	border-left: 31.5px solid transparent;
+	border-right: 31.5px solid transparent;
+	height: 0;
+	width: 97px;
+}
+
+
+
+.A1, .B1, .C1, .D1, .E1, .F1, .G1 {
+  top: 0px
+}
+.A2, .B2, .C2, .D2, .E2, .F2, .G2 {
+  top: 125px
+}
+.A3, .B3, .C3, .D3, .E3, .F3, .G3 {
+  top: 250px
+}
+.A4, .B4, .C4, .D4, .E4, .F4, .G4 {
+  top: 375px
+}
+.B5, .C5, .D5, .E5, .F5 {
+  top: 500px
+}
+.C6, .D6, .E6 {
+  top: 625px
+}
+.D7 {
+  top: 750px
+}
+
+.lineA { position: absolute; left: 0; top: 187.5px}
+.lineB { position: absolute; left: 135px; top: 125px}
+.lineC { position: absolute; left: 270px; top: 62.5px}
+.lineD { position: absolute; left: 405px}
+.lineE { position: absolute; left: 540px; top: 62.5px}
+.lineF { position: absolute; left: 675px; top: 125px}
+.lineG { position: absolute; left: 810px; top: 187.5px}
+
+
+.hexLabel {
+  position: absolute;
+  font-size: 18px;
+  left: 69px;
+  top: 5px;
+}
+
+.cellType {
+  position: absolute;
+  left: 74px;
+  top: 18px;
+  transform: scale(0.8) translateX(-50%);
+}
+
+.hydro {
+  position: absolute;
+  left: 107px;
+  top: 59px;
+  transform: scale(0.8) translateX(-50%);
+}
+.asteroids {
+  position: absolute;
+  left: 46px;
+  top: 59px;
+  transform: scale(0.8) translateX(-50%);
+}

@@ -1,0 +1,81 @@
+{
+  "name": "slots",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run server\" \"react-scripts start\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "server": "node ./server/index.js"
+  },
+  "dependencies": {
+    "@lvchengbin/event-emitter": "^1.0.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@pixi/app": "^5.3.3",
+    "@pixi/core": "^5.3.3",
+    "@pixi/loaders": "^5.3.3",
+    "@pixi/sprite": "^5.3.3",
+    "@pixi/ticker": "^5.3.3",
+    "@pixi/utils": "^5.3.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^26.0.13",
+    "@types/mathjs": "^6.0.5",
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "axios": "^0.20.0",
+    "bignumber.js": "^9.0.1",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "debug": "^4.2.0",
+    "decimal.js": "^10.2.0",
+    "exact-math": "^2.2.2",
+    "express": "^4.17.1",
+    "highcharts": "^9.0.1",
+    "immer": "^7.0.7",
+    "jsonpointer": "^4.1.0",
+    "lodash": "^4.17.19",
+    "material-table": "^1.67.1",
+    "mathjs": "^7.2.0",
+    "moment": "^2.29.0",
+    "nodemon": "^2.0.4",
+    "proper-lockfile": "^4.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-motion": "^0.5.2",
+    "react-scripts": "3.4.1",
+    "recharts": "^2.1.4",
+    "typescript": "^4.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+.verticalLabels span {
+  display: block;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}

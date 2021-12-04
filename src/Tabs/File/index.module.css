@@ -1,0 +1,11 @@
+.filenameLabel :global(.MuiFormControlLabel-label) {
+  min-width: 200px
+}
+
+.mtimeLabel :global(.MuiFormControlLabel-label) {
+  min-width: 160px
+}
+
+.selected {
+  background-color: lightgoldenrodyellow;
+} 

@@ -1,0 +1,12 @@
+project: ws-calculator
+configVersion: 1
+
+---
+image: app
+dockerfile: /Dockerfile
+
+# ---
+# image: app2
+# dockerfile: /streamsets/Dockerfile
+# args:
+#   PRIVATE_TOKEN: {{ env "PRIVATE_TOKEN" }}

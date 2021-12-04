@@ -1,0 +1,26 @@
+.minHeight {
+  margin: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px gray;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px gray;
+}
+
+.row {
+  height: 8px;
+  width: 8px;
+  border-bottom: solid 1px gray;
+  background: lightgray;
+}
+
+.selected {
+  background: darkcyan;
+}

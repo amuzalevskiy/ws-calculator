@@ -1,0 +1,12 @@
+.button {
+  overflow: hidden !important;
+}
+
+.input {
+  position: absolute;
+  z-index: 2;
+  height: 32px;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
