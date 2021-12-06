@@ -21,6 +21,7 @@ _.defaultsDeep(defaultSettings, {
 const Players = () => {
   const context = useContext(Context)
   const [players, setPlayers] = context.useState('/ws/players')
+
   const addPlayer = useCallback(() => {
     setPlayers([...players, {}])
   }, [setPlayers, players])
@@ -55,7 +56,7 @@ const Players = () => {
       </tr>
       {players
       .map((player, index) => {
-        return <WithNestedContext pointer={"/ws/players" + index}>
+        return <WithNestedContext pointer={"/ws/players/" + index}>
           <tr>
             <td><DirectInput pointer="/name" type="string"/></td>
             <td><DirectInput pointer="/minerLevel" /></td>

@@ -19,6 +19,7 @@ import { backendURL } from './appSettings'
 import produce, { applyPatches } from 'immer'
 import { defaultSettings } from './defaultSettings'
 import Players from './Tabs/Players'
+import PlayerStats from './Tabs/PlayerStats'
 
 function App() {
   return (
@@ -33,7 +34,7 @@ export default App
 const tabsByFileType = {
   'absent': ['File'],
   'unknown': ['File', 'Game'],
-  'ws-mining': ['File', 'Game', 'Players', 'WSField'],
+  'ws-mining': ['File', 'Game', 'Players', 'WSField', 'PlayerStats'],
 }
 
 const tabsConfig = {
@@ -55,7 +56,12 @@ const tabsConfig = {
   Players: {
     name: 'Players',
     render: Players,
-  }
+  },
+
+  PlayerStats: {
+    name: 'PlayerStats',
+    render: PlayerStats,
+  },
 }
 
 function AppTabs() {
