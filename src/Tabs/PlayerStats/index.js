@@ -1,15 +1,11 @@
-import React, { useContext, useState, useCallback, useEffect } from 'react'
+import React, { useContext } from 'react'
 import TabContainer from '../../Components/TabContainer'
-import DirectInput from '../../Components/DirectInput'
-import FieldSet from '../../Components/FieldSet'
-import { Tooltip, Button, FormGroup } from '@material-ui/core'
-import { Context, WithNestedContext } from '../../Components/DirectEditorsContext'
+import { Context } from '../../Components/DirectEditorsContext'
 import _ from 'lodash'
 
 import { defaultSettings } from '../../defaultSettings'
 
 import styles from './index.module.css'
-import DirectSelect from '../../Components/DirectSelect'
 import { getMiningBoost, getMiningSpeed, getRemoteMining } from '../../Math/game'
 
 

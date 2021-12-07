@@ -18,6 +18,7 @@ const parsers = {
     }
   }
 }
+
 const DirectInput = ({ label, disabled, pointer, type = 'number', multiplier = 1, helperText, units, defaultValue = '', inputProps = {} }) => {
   const context = useContext(Context)
   const parser = parsers[type] || parsers.text

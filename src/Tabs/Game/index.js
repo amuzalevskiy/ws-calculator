@@ -6,26 +6,14 @@ import _ from 'lodash'
 
 import FieldSet from '../../Components/FieldSet'
 import DirectSelect from '../../Components/DirectSelect'
-import DirectCheckbox from '../../Components/DirectCheckbox'
 
 import { defaultSettings } from '../../defaultSettings'
-import DirectHide from '../../Components/DirectHide'
-import DirectInput from '../../Components/DirectInput'
-// import Info from '../../Components/Info'
 
 _.defaultsDeep(defaultSettings, {
   revision: 0,
-  filename: '',
-  slots: {
-    randomWildAtSomeReels: {
-      enabled: false,
-      columns: 2,
-    },
-    freeSpinsWhenWildsAreLockedAtEachLine: {
-      enabled: false,
-    }
-  }
+  filename: ''
 })
+
 const supportedGameTypes = [
   {
     label: 'БЗ (майнинг)',

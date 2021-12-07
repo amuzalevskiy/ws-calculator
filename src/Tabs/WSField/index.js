@@ -1,8 +1,5 @@
-import React, { useContext, useState, useCallback, useEffect } from 'react'
+import React, { useContext } from 'react'
 import TabContainer from '../../Components/TabContainer'
-import DirectInput from '../../Components/DirectInput'
-import FieldSet from '../../Components/FieldSet'
-import { Tooltip, Button, FormGroup } from '@material-ui/core'
 import { Context, WithNestedContext } from '../../Components/DirectEditorsContext'
 import _ from 'lodash'
 
@@ -185,8 +182,7 @@ const Hexagon = ({place, sectors}) => {
 
 const ChestField = () => {
   const context = useContext(Context)
-  const [sectors, setSectors] = context.useState('/ws/field/sectors')
-  const [RTP, setRTP] = useState(0)
+  const [sectors] = context.useState('/ws/field/sectors')
 
   return <TabContainer name="WSField">
     <WithNestedContext pointer="/ws/field/sectors">
