@@ -24,7 +24,7 @@ function mapToRegularNames(hexagons) {
   hexagons.forEach(hexagon => {
     // hexagon.q // column
     // hexagon.s // row
-    const shortcut = letters[hexagon.q + 3] + (-hexagon.s - shifts[hexagon.q + 3])
+    const shortcut = letters[hexagon.q + 3] + (1 - hexagon.s - shifts[hexagon.q + 3])
     hexagon.shortcut = shortcut
     map[shortcut] = hexagon
   });

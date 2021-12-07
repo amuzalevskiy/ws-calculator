@@ -86,3 +86,7 @@
 {"action":"modify","at":"2021-12-07T14:36:03.628Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"},{"color":"blue"},{"color":"yellow"},{"color":"coral"}]}]}
 {"action":"modify","at":"2021-12-07T14:36:05.466Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"},{"color":"yellow"},{"color":"coral"}]}]}
 {"action":"modify","at":"2021-12-07T14:36:06.686Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"},{"color":"yellow"}]}]}
+{"action":"modify","at":"2021-12-07T14:51:01.166Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"}]}]}
+{"action":"modify","at":"2021-12-07T14:51:01.728Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[]}]}
+{"action":"modify","at":"2021-12-07T14:51:02.233Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"}]}]}
+{"action":"modify","at":"2021-12-07T14:51:02.618Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green"},{"color":"blue"}]}]}
