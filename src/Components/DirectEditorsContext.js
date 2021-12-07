@@ -220,7 +220,7 @@ class RootContext extends BaseContext {
   }
 
   onChange(prevValue, nextValue) {
-    console.log(nextValue)
+    console.log('context value', nextValue)
     this.onChangeRec(prevValue, nextValue, this.listenersTree)
   }
 
