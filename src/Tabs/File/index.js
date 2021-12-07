@@ -97,7 +97,7 @@ const File = () => {
             }))
           }}
         >Редактировать</Button>
-        {/* <Button
+        {/* Doesn't work <Button
           onClick={() => {
             if (window.confirm('All change history will be lost. Are you sure?')) {
               Axios.get(backendURL + '/file/' + basename + '/prune')

@@ -87,42 +87,46 @@ module.exports = (app) => {
     })
   })
 
-  app.options('/file/:name/prune', cors())
-  app.get('/file/:name/prune', cors(), (req, res) => {
-    const name = req.params.name
-    const filename = path.join(directoryPath, name + '.jsonl')
-    const main = () => {
-      fs.readFile(filename, { encoding: 'utf-8' }, (err, content) => {
-        lockfile.unlock(filename).then(() => {})
-        if (!err) {
-          const patchesBefore = content.split('\n')
-          let patchesAfter
+  // app.options('/file/:name/prune', cors())
+  // app.get('/file/:name/prune', cors(), (req, res) => {
+  //   const name = req.params.name
+  //   const filename = path.join(directoryPath, name + '.jsonl')
+  //   const main = () => {
+  //     fs.readFile(filename, { encoding: 'utf-8' }, (err, content) => {
+  //       lockfile.unlock(filename).then(() => {})
+  //       if (!err) {
+  //         const patchesBefore = content.split('\n')
+  //         let patchesAfter
           
-          produce({}, (draft) => {
-            // skip empty line at the start of file
-            for (let i = 1; i < patchesBefore.length; i++) {
-              const patch = JSON.parse(patchesBefore[i])
-              switch (patch.action) {
-                case 'modify':
-                  draft = applyPatches(draft, patch.payload)
-                  break
-                default:
-                  throw new Error('Unknown operation')
-              }
-            }
-          }, (patches) => {
-            patchesAfter = patches
-          })
-          writeFile(name, patchesAfter, res, true, 'w')
-        }
-      })
-    }
-    lockfile.lock(filename, lockFileOpts)
-      .then(main)
-      .catch(() => {
-        res.status(500).send('Lockfile failed')
-      })
-  })
+  //         let value = {}
+  //         produce(value, (draft) => {
+  //           // skip empty line at the start of file
+  //           for (let i = 1; i < patchesBefore.length; i++) {
+  //             const patch = JSON.parse(patchesBefore[i])
+  //             switch (patch.action) {
+  //               case 'modify':
+  //                 draft = applyPatches(draft, patch.payload)
+  //                 break
+  //               default:
+  //                 throw new Error('Unknown operation')
+  //             }
+  //           }
+  //         }, (patches) => {
+  //           patchesAfter = patches
+  //         })
+
+  //         console.log(value)
+
+  //         // writeFile(name, patchesAfter, res, true, 'w')
+  //       }
+  //     })
+  //   }
+  //   lockfile.lock(filename, lockFileOpts)
+  //     .then(main)
+  //     .catch(() => {
+  //       res.status(500).send('Lockfile failed')
+  //     })
+  // })
 
   app.options('/file/:name/clone', cors())
   app.post('/file/:name/clone', cors(), (req, res) => {
@@ -138,7 +142,6 @@ module.exports = (app) => {
       fs.readFile(filename, { encoding: 'utf-8' }, (err, content) => {
         lockfile.unlock(filename).then(() => {})
         if (!err) {
-          // eslint-disable-next-line node/no-deprecated-api
           fs.exists(filenameToCreate, (exists) => {
             if (exists) {
               res.send({ error: `file ${req.body.name} exists` })
@@ -170,7 +173,6 @@ module.exports = (app) => {
     const name = req.params.name
     const filename = path.join(directoryPath, name + '.jsonl')
     const nextFilename = path.join(directoryPath, '_' + name + '.jsonl')
-    // eslint-disable-next-line node/no-deprecated-api
     fs.exists(filename, (exists) => {
       if (exists) {
         fs.rename(filename, nextFilename, (err) => {
@@ -192,7 +194,6 @@ module.exports = (app) => {
     const name = req.params.name
     const filename = path.join(directoryPath, name + '.jsonl')
     const nextFilename = path.join(directoryPath, name.substr(1) + '.jsonl')
-    // eslint-disable-next-line node/no-deprecated-api
     fs.exists(filename, (exists) => {
       if (exists) {
         fs.rename(filename, nextFilename, (err) => {
@@ -230,7 +231,6 @@ function writeFile(name, content, res, hasLock = false, flag = 'a') {
     lockfile.lock(filename, lockFileOpts)
       .then(main)
       .catch(() => {
-        // eslint-disable-next-line node/no-deprecated-api
         fs.exists(filename, (exists) => {
           if (exists) {
             res.status(500).send('Lockfile failed')
