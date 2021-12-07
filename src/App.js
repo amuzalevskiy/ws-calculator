@@ -20,6 +20,7 @@ import produce, { applyPatches } from 'immer'
 import { defaultSettings } from './defaultSettings'
 import Players from './Tabs/Players'
 import PlayerStats from './Tabs/PlayerStats'
+import TimeToCollect from './Tabs/TimeToCollect'
 
 function App() {
   return (
@@ -34,7 +35,7 @@ export default App
 const tabsByFileType = {
   'absent': ['File'],
   'unknown': ['File', 'Game'],
-  'ws-mining': ['File', 'Game', 'Players', 'WSField', 'PlayerStats'],
+  'ws-mining': ['File', 'Game', 'Players', 'WSField', 'PlayerStats', 'TimeToCollect'],
 }
 
 const tabsConfig = {
@@ -62,6 +63,11 @@ const tabsConfig = {
     name: 'PlayerStats',
     render: PlayerStats,
   },
+
+  TimeToCollect: {
+    name: 'TimeToCollect',
+    render: TimeToCollect,
+  }
 }
 
 function AppTabs() {

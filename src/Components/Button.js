@@ -5,7 +5,7 @@ import styles from './Button.module.css'
 
 const Button = (props) => {
   return <ButtonImpl
-    className={styles.main}
+    className={`${styles.main} ${props.className}`}
     variant="outlined"
     color="primary"
     disableElevation

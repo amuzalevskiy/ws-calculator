@@ -1,0 +1,47 @@
+.cell {
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 0.5px;
+}
+.cellName {
+  fill: lightgray;
+  font-size: 5px;
+  font-weight: normal;
+  font-family: Verdana, sans-serif;
+}
+
+.twoColumnLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.columnOne {
+  width: 410px;
+}
+.columnTwo {
+  flex: 1
+}
+
+.columnLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 200px;
+  min-height: 350px;
+  background: #eee;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.columnLabel {
+  line-height: 35px;
+}
+.keepTopRight {
+  position: absolute !important;
+  top: 8px;
+  right: 8px;
+}
