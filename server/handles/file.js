@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 var lockfile = require('proper-lockfile')
-var { default: produce, applyPatches, enablePatches } = require('immer')
+var { applyPatches, enablePatches } = require('immer')
 enablePatches()
 
 const directoryPath = path.join(__dirname, '../../files')
