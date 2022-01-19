@@ -7,6 +7,7 @@ import { defaultSettings } from '../../defaultSettings'
 
 import styles from './index.module.css'
 import DirectSelect from '../../Components/DirectSelect'
+import { getHexagonColor } from '../../lib/mapUtil'
 
 _.defaultsDeep(defaultSettings, {
   ws: {
@@ -131,31 +132,7 @@ const hydroAmount = [
 
 const Hexagon = ({place, sectors}) => {
   let sector = sectors[place]
-  let hexColor = 'white'
-
-  // eslint-disable-next-line default-case
-  switch(sector.type) {
-    case 'our-gates':
-    case 'their-gates':
-      hexColor = '#ffeeee'
-      break;
-    
-    case 'L1':
-      hexColor = '#f8fff8'
-      break;
-
-    case 'L5':
-      hexColor = '#eeffee'
-      break;
-
-    case 'L10':
-      hexColor = '#d0ffd0'
-      break;
-  }
-
-  if (sector.hydro === 3000) {
-    hexColor = '#eeeeff'
-  }
+  let hexColor = getHexagonColor(sector)
 
   return <div className={`${styles.hexagonContainer} ${styles[place]}`} style={{
     '--hexagonColor': hexColor
