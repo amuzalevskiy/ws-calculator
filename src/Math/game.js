@@ -8,7 +8,7 @@ const miningSpeed = [
 ]
 
 export function getMiningSpeed(minerLevel) {
-  return miningSpeed[minerLevel - 1]
+  return miningSpeed[minerLevel - 1] * 60/* per hour */ / 600 /* time slowdown */
 }
 
 const miningBoost = [

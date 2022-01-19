@@ -10,6 +10,8 @@ import { defaultSettings } from '../../defaultSettings'
 import styles from './index.module.css'
 import { getHexagonColor } from '../../lib/mapUtil';
 import DirectInput from '../../Components/DirectInput';
+import PlayersSelector from '../../Components/PlayersSelector';
+import { getMiningBoost, getMiningSpeed, getRemoteMining } from '../../Math/game';
 
 _.defaultsDeep(defaultSettings, {
   ws: {
@@ -42,12 +44,15 @@ const TimeToCollect = () => {
   const context = useContext(Context)
   const [minerGroups, setMinerGroups] = context.useState('/ws/minerGroups')
   const [sectors] = context.useState('/ws/field/sectors')
+  const [players] = context.useState('/ws/players')
   const hexagons = GridGenerator.hexagon(3);
   const strToHexagon = mapToRegularNames(hexagons);
 
   const addMiningGroup = useCallback(() => {
     setMinerGroups([...minerGroups, {
-      color: getUnusedColor(minerGroups)
+      color: getUnusedColor(minerGroups),
+      players: [],
+      path: ''
     }])
   }, [minerGroups, setMinerGroups])
   const removeMiningGroup = useCallback((groupToRemove) => {
@@ -73,7 +78,6 @@ const TimeToCollect = () => {
                   return <></>
                 }
                 const to = waypoints[index+1]
-                console.log(from, '=>', to)
                 return <g style={{
                   stroke: 'light' + minerGroup.color,
                   strokeWidth: 2,
@@ -92,12 +96,37 @@ const TimeToCollect = () => {
               const totalWaterAmount = waypoints.reduce((a, c) => {
                 return a + (sectors[c]?.hydro || 0)
               }, 0)
+              const totalWaterCapacity = minerGroup.players.reduce((acc, playerName) => {
+                return acc + (players.find(x => x.name === playerName) || {}).capacity || 0
+              }, 0)
+              
+              const miningSpeedPerAsteroid = minerGroup.players.reduce((acc, playerName) => {
+                let player = players.find(x => x.name === playerName)
+                if (!player) {
+                  return acc
+                }
+                return acc + getMiningSpeed(player.minerLevel) * getMiningBoost(player.miningBoost) * getRemoteMining(player.remoteMining)
+              }, 0)
+
+              const totalMovementTimeHrs = (waypoints.length - 1) * 10
+
+              console.log(waypoints)
+
+              const totalMiningTimeHrs = waypoints.reduce((a,c) => {
+                return a + (sectors[c]?.hydro || 0) / (sectors[c]?.asteroids || 1)
+              }, 0) / miningSpeedPerAsteroid
               return <WithNestedContext pointer={`/ws/minerGroups/${i}`}>
               <div className={styles.column}>
                 <div className={styles.columnLabel}>Цвет: <span style={{background: `light${minerGroup.color}`}}>{minerGroup.color}</span></div>
                 <Button className={styles.keepTopRight} onClick={() => removeMiningGroup(minerGroup)}>Удалить</Button>
                 <DirectInput label="Путь" pointer="/path" type="string" defaultValue=''/>
-                <div className={styles.columnLabel}>Воды: {totalWaterAmount}</div>
+
+                Игроки: <PlayersSelector pointer="/players" />
+                <div className={styles.columnLabel}>Общий бак: {totalWaterCapacity}</div>
+                <div className={styles.columnLabel}>Всего воды: {totalWaterAmount}</div>
+                <div className={styles.columnLabel}>Скорость добычи: {miningSpeedPerAsteroid.toFixed(2)} в час</div>
+                <div className={styles.columnLabel}>Время движения: {totalMovementTimeHrs.toFixed(2)} часов</div>
+                <div className={styles.columnLabel}>Время добычи: {totalMiningTimeHrs.toFixed(2)} часов</div>
               </div>
             </WithNestedContext>
           })}
@@ -109,6 +138,6 @@ const TimeToCollect = () => {
 
 export default TimeToCollect
 function getWaypoints(minerGroup) {
-  return minerGroup.path.split(' ').filter(x => x.length === 2);
+  return minerGroup.path ? minerGroup.path.split(' ').filter(x => x.length === 2) : []  
 }
 

@@ -200,3 +200,101 @@
 {"action":"modify","at":"2022-01-18T15:11:44.771Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"E1 F1 G1 G2 G3 FF2 E2 D3 C3 B2"}]}
 {"action":"modify","at":"2022-01-18T15:11:45.424Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"E1 F1 G1 G2 G3 F3F2 E2 D3 C3 B2"}]}
 {"action":"modify","at":"2022-01-18T15:11:45.775Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"E1 F1 G1 G2 G3 F3 F2 E2 D3 C3 B2"}]}
+{"action":"modify","at":"2022-01-19T11:21:59.015Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"E1 F1  F2 E2 D3 C3 B2"}]}
+{"action":"modify","at":"2022-01-19T11:21:59.416Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"E1 F1 F2 E2 D3 C3 B2"}]}
+{"action":"modify","at":"2022-01-19T11:34:03.667Z","payload":[{"op":"add","path":["ws","minerGroups",0,"players"],"value":[]},{"op":"add","path":["ws","minerGroups",1,"players"],"value":[]},{"op":"add","path":["ws","minerGroups",2,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T11:35:30.438Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T11:35:33.370Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["",""]}]}
+{"action":"modify","at":"2022-01-19T11:35:34.346Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["","",""]}]}
+{"action":"modify","at":"2022-01-19T11:35:35.537Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["","","",""]}]}
+{"action":"modify","at":"2022-01-19T11:35:37.150Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["","","","",""]}]}
+{"action":"modify","at":"2022-01-19T11:35:37.987Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["","","","","",""]}]}
+{"action":"modify","at":"2022-01-19T11:36:30.092Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T11:36:31.228Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T11:36:33.388Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["",""]}]}
+{"action":"modify","at":"2022-01-19T11:36:34.188Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T11:36:35.023Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T11:38:50.287Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Bahus"}]}
+{"action":"modify","at":"2022-01-19T11:38:51.682Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Bahus",""]}]}
+{"action":"modify","at":"2022-01-19T11:38:53.571Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Lexa"}]}
+{"action":"modify","at":"2022-01-19T11:38:55.035Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Bahus","Lexa",""]}]}
+{"action":"modify","at":"2022-01-19T11:38:57.260Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Roman"}]}
+{"action":"modify","at":"2022-01-19T11:38:59.297Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Bahus","Roman"]}]}
+{"action":"modify","at":"2022-01-19T11:39:00.143Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Bahus"]}]}
+{"action":"modify","at":"2022-01-19T11:39:00.722Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T11:39:02.142Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T11:39:03.506Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T11:39:04.437Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T11:39:05.724Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:21:59.429Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T12:22:00.615Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:22:02.411Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:22:03.379Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T12:22:05.640Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:22:06.612Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T12:22:07.499Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:22:08.816Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:22:09.491Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T12:22:10.721Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Мир"}]}
+{"action":"modify","at":"2022-01-19T12:22:12.239Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима"]}]}
+{"action":"modify","at":"2022-01-19T12:22:13.100Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T12:22:23.896Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:22:25.314Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:22:28.215Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Lexa"}]}
+{"action":"modify","at":"2022-01-19T12:22:55.138Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:22:56.899Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T12:22:58.723Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Мир"}]}
+{"action":"modify","at":"2022-01-19T12:22:59.677Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","Мир",""]}]}
+{"action":"modify","at":"2022-01-19T12:23:24.144Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Roman"}]}
+{"action":"modify","at":"2022-01-19T12:23:27.236Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Krunaro"}]}
+{"action":"modify","at":"2022-01-19T12:23:28.585Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T12:25:51.468Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"StarMerlin"}]}
+{"action":"modify","at":"2022-01-19T12:25:52.485Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима"]}]}
+{"action":"modify","at":"2022-01-19T12:25:53.875Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T12:25:55.212Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:25:56.360Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["",""]}]}
+{"action":"modify","at":"2022-01-19T12:25:57.558Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["","",""]}]}
+{"action":"modify","at":"2022-01-19T12:25:58.993Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[]}]}
+{"action":"modify","at":"2022-01-19T12:37:52.982Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:38:17.303Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Дима"}]}
+{"action":"modify","at":"2022-01-19T12:38:19.261Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима",""]}]}
+{"action":"modify","at":"2022-01-19T12:38:24.119Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"DenisMig"}]}
+{"action":"modify","at":"2022-01-19T12:38:35.215Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig",""]}]}
+{"action":"modify","at":"2022-01-19T12:38:37.500Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Krunaro"}]}
+{"action":"modify","at":"2022-01-19T12:38:39.968Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig","Krunaro",""]}]}
+{"action":"modify","at":"2022-01-19T12:38:42.103Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",3],"value":"Probro"}]}
+{"action":"modify","at":"2022-01-19T12:38:47.142Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig","Krunaro"]}]}
+{"action":"modify","at":"2022-01-19T12:38:48.842Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig"]}]}
+{"action":"modify","at":"2022-01-19T12:40:33.749Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:40:36.027Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",0],"value":"StarMerlin"}]}
+{"action":"modify","at":"2022-01-19T12:40:37.681Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["StarMerlin",""]}]}
+{"action":"modify","at":"2022-01-19T12:40:39.886Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",1],"value":"Lexa"}]}
+{"action":"modify","at":"2022-01-19T12:40:42.090Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["StarMerlin","Lexa",""]}]}
+{"action":"modify","at":"2022-01-19T12:40:44.664Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",2],"value":"Probro"}]}
+{"action":"modify","at":"2022-01-19T12:40:47.602Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T12:40:51.181Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",0],"value":"Krunaro"}]}
+{"action":"modify","at":"2022-01-19T12:40:52.457Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Krunaro",""]}]}
+{"action":"modify","at":"2022-01-19T12:40:54.771Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",1],"value":"Зенит"}]}
+{"action":"modify","at":"2022-01-19T12:41:25.849Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig",""]}]}
+{"action":"modify","at":"2022-01-19T12:41:28.273Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Liptonit"}]}
+{"action":"modify","at":"2022-01-19T12:41:30.110Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig"]}]}
+{"action":"modify","at":"2022-01-19T13:18:28.729Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig",""]}]}
+{"action":"modify","at":"2022-01-19T13:18:32.049Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Drunken Chicken"}]}
+{"action":"modify","at":"2022-01-19T13:18:34.496Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig"]}]}
+{"action":"modify","at":"2022-01-19T13:36:52.565Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","path":"E1 F1 F2 E2 D3 C3 B2","players":["Дима","DenisMig"]},{"color":"blue","path":"E1 D1 C1 B1 A1 A2","players":["StarMerlin","Lexa","Probro"]},{"color":"yellow","path":"E1 D2 C2 B2","players":["Krunaro","Зенит"]},{"color":"coral","players":[]}]}]}
+{"action":"modify","at":"2022-01-19T13:37:49.300Z","payload":[{"op":"replace","path":["ws","minerGroups",3,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-19T13:37:51.686Z","payload":[{"op":"replace","path":["ws","minerGroups",3,"players",0],"value":"Drunken Chicken"}]}
+{"action":"modify","at":"2022-01-19T13:38:02.948Z","payload":[{"op":"add","path":["ws","minerGroups",3,"path"],"value":"E"}]}
+{"action":"modify","at":"2022-01-19T13:38:03.656Z","payload":[{"op":"replace","path":["ws","minerGroups",3,"path"],"value":"E1"}]}
+{"action":"modify","at":"2022-01-19T13:39:46.145Z","payload":[{"op":"replace","path":["ws","players",13,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-19T13:41:12.898Z","payload":[{"op":"replace","path":["ws","players",13,"miningBoost"],"value":6}]}
+{"action":"modify","at":"2022-01-19T13:42:41.642Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","path":"E1 F1 F2 E2 D3 C3 B2","players":["Дима","DenisMig"]},{"color":"blue","path":"E1 D1 C1 B1 A1 A2","players":["StarMerlin","Lexa","Probro"]},{"color":"yellow","path":"E1 D2 C2 B2","players":["Krunaro","Зенит"]}]}]}
+{"action":"modify","at":"2022-01-19T13:57:25.296Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig",""]}]}
+{"action":"modify","at":"2022-01-19T13:57:27.962Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Liptonit"}]}
+{"action":"modify","at":"2022-01-19T13:57:33.421Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig","Liptonit",""]}]}
+{"action":"modify","at":"2022-01-19T13:57:35.242Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",3],"value":"Drunken Chicken"}]}
+{"action":"modify","at":"2022-01-19T13:57:39.100Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig","Liptonit"]}]}
+{"action":"modify","at":"2022-01-19T13:57:41.135Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig"]}]}
+{"action":"modify","at":"2022-01-19T13:57:42.915Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig",""]}]}
+{"action":"modify","at":"2022-01-19T13:57:46.592Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"Kvasir"}]}
+{"action":"modify","at":"2022-01-19T13:57:48.642Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Дима","DenisMig"]}]}
