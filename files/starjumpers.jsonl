@@ -1,0 +1,381 @@
+
+{"action":"modify","at":"2022-01-20T09:13:45.129Z","payload":[{"op":"add","path":["editor"],"value":{"collapse":{}}},{"op":"add","path":["revision"],"value":0},{"op":"add","path":["filename"],"value":"starjumpers"},{"op":"add","path":["gameType"],"value":"unknown"},{"op":"add","path":["ws"],"value":{"field":{"sectors":{"A1":{"asteroids":4,"hydro":350},"A2":{"asteroids":4,"hydro":350},"A3":{"asteroids":4,"hydro":350},"A4":{"asteroids":4,"hydro":350},"B1":{"asteroids":4,"hydro":350},"B2":{"asteroids":4,"hydro":350},"B3":{"asteroids":4,"hydro":350},"B4":{"asteroids":4,"hydro":350},"B5":{"asteroids":4,"hydro":350},"C1":{"asteroids":4,"hydro":350},"C2":{"asteroids":4,"hydro":350},"C3":{"asteroids":4,"hydro":350},"C4":{"asteroids":4,"hydro":350},"C5":{"asteroids":4,"hydro":350},"C6":{"asteroids":4,"hydro":350},"D1":{"asteroids":4,"hydro":350},"D2":{"asteroids":4,"hydro":350},"D3":{"asteroids":4,"hydro":350},"D4":{"asteroids":0,"hydro":0},"D5":{"asteroids":4,"hydro":350},"D6":{"asteroids":4,"hydro":350},"D7":{"asteroids":4,"hydro":350},"E1":{"asteroids":4,"hydro":350},"E2":{"asteroids":4,"hydro":350},"E3":{"asteroids":4,"hydro":350},"E4":{"asteroids":4,"hydro":350},"E5":{"asteroids":4,"hydro":350},"E6":{"asteroids":4,"hydro":350},"F1":{"asteroids":4,"hydro":350},"F2":{"asteroids":4,"hydro":350},"F3":{"asteroids":4,"hydro":350},"F4":{"asteroids":4,"hydro":350},"F5":{"asteroids":4,"hydro":350},"G1":{"asteroids":4,"hydro":350},"G2":{"asteroids":4,"hydro":350},"G3":{"asteroids":4,"hydro":350},"G4":{"asteroids":4,"hydro":350}}},"players":[],"minerGroups":[]}}]}
+{"action":"modify","at":"2022-01-20T09:13:50.144Z","payload":[{"op":"replace","path":["gameType"],"value":"ws-mining"}]}
+{"action":"modify","at":"2022-01-20T09:14:00.459Z","payload":[{"op":"add","path":["ws","field","sectors","B1","type"],"value":"our-gates"}]}
+{"action":"modify","at":"2022-01-20T09:14:07.855Z","payload":[{"op":"add","path":["ws","field","sectors","F5","type"],"value":"their-gates"}]}
+{"action":"modify","at":"2022-01-20T09:14:22.701Z","payload":[{"op":"add","path":["ws","field","sectors","B5","type"],"value":"L10"}]}
+{"action":"modify","at":"2022-01-20T09:14:27.966Z","payload":[{"op":"add","path":["ws","field","sectors","C5","type"],"value":"L5"}]}
+{"action":"modify","at":"2022-01-20T09:14:29.826Z","payload":[{"op":"add","path":["ws","field","sectors","D6","type"],"value":"L5"}]}
+{"action":"modify","at":"2022-01-20T09:14:33.883Z","payload":[{"op":"add","path":["ws","field","sectors","E6","type"],"value":"L1"}]}
+{"action":"modify","at":"2022-01-20T09:14:40.206Z","payload":[{"op":"add","path":["ws","field","sectors","C1","type"],"value":"L1"}]}
+{"action":"modify","at":"2022-01-20T09:14:44.692Z","payload":[{"op":"add","path":["ws","field","sectors","D2","type"],"value":"L5"}]}
+{"action":"modify","at":"2022-01-20T09:14:46.407Z","payload":[{"op":"add","path":["ws","field","sectors","E2","type"],"value":"L5"}]}
+{"action":"modify","at":"2022-01-20T09:14:48.299Z","payload":[{"op":"add","path":["ws","field","sectors","F1","type"],"value":"L10"}]}
+{"action":"modify","at":"2022-01-20T09:15:25.974Z","payload":[{"op":"replace","path":["ws","field","sectors","C2","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:29.938Z","payload":[{"op":"replace","path":["ws","field","sectors","A2","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:31.462Z","payload":[{"op":"replace","path":["ws","field","sectors","A3","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:33.155Z","payload":[{"op":"replace","path":["ws","field","sectors","A4","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:39.636Z","payload":[{"op":"replace","path":["ws","field","sectors","E5","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:47.299Z","payload":[{"op":"replace","path":["ws","field","sectors","G1","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:49.430Z","payload":[{"op":"replace","path":["ws","field","sectors","G2","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:15:51.725Z","payload":[{"op":"replace","path":["ws","field","sectors","G3","hydro"],"value":3000}]}
+{"action":"modify","at":"2022-01-20T09:16:11.845Z","payload":[{"op":"replace","path":["ws","field","sectors","C2","asteroids"],"value":6}]}
+{"action":"modify","at":"2022-01-20T09:16:14.975Z","payload":[{"op":"replace","path":["ws","field","sectors","A2","asteroids"],"value":6}]}
+{"action":"modify","at":"2022-01-20T09:16:18.210Z","payload":[{"op":"replace","path":["ws","field","sectors","A3","asteroids"],"value":5}]}
+{"action":"modify","at":"2022-01-20T09:16:21.606Z","payload":[{"op":"replace","path":["ws","field","sectors","A4","asteroids"],"value":6}]}
+{"action":"modify","at":"2022-01-20T09:16:30.016Z","payload":[{"op":"replace","path":["ws","field","sectors","B2","asteroids"],"value":3}]}
+{"action":"modify","at":"2022-01-20T09:16:31.644Z","payload":[{"op":"replace","path":["ws","field","sectors","B3","asteroids"],"value":5}]}
+{"action":"modify","at":"2022-01-20T09:16:33.673Z","payload":[{"op":"replace","path":["ws","field","sectors","B4","asteroids"],"value":5}]}
+{"action":"modify","at":"2022-01-20T09:16:48.260Z","payload":[{"op":"replace","path":["ws","field","sectors","B1","hydro"],"value":160}]}
+{"action":"modify","at":"2022-01-20T09:16:50.851Z","payload":[{"op":"replace","path":["ws","field","sectors","F5","hydro"],"value":160}]}
+{"action":"modify","at":"2022-01-20T09:17:22.464Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","players":[],"path":""}]}]}
+{"action":"modify","at":"2022-01-20T09:17:28.059Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B"}]}
+{"action":"modify","at":"2022-01-20T09:17:28.502Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1"}]}
+{"action":"modify","at":"2022-01-20T09:17:30.208Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 "}]}
+{"action":"modify","at":"2022-01-20T09:17:31.329Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C"}]}
+{"action":"modify","at":"2022-01-20T09:17:31.718Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2"}]}
+{"action":"modify","at":"2022-01-20T09:17:33.574Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 "}]}
+{"action":"modify","at":"2022-01-20T09:17:33.972Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B"}]}
+{"action":"modify","at":"2022-01-20T09:17:34.332Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2"}]}
+{"action":"modify","at":"2022-01-20T09:17:35.245Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 "}]}
+{"action":"modify","at":"2022-01-20T09:17:35.990Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A"}]}
+{"action":"modify","at":"2022-01-20T09:17:36.480Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1"}]}
+{"action":"modify","at":"2022-01-20T09:17:37.250Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 "}]}
+{"action":"modify","at":"2022-01-20T09:17:38.011Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A"}]}
+{"action":"modify","at":"2022-01-20T09:17:38.417Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2"}]}
+{"action":"modify","at":"2022-01-20T09:17:39.383Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 "}]}
+{"action":"modify","at":"2022-01-20T09:17:40.475Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B"}]}
+{"action":"modify","at":"2022-01-20T09:17:40.923Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3"}]}
+{"action":"modify","at":"2022-01-20T09:17:41.883Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 "}]}
+{"action":"modify","at":"2022-01-20T09:17:42.880Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C"}]}
+{"action":"modify","at":"2022-01-20T09:17:43.334Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3"}]}
+{"action":"modify","at":"2022-01-20T09:17:44.385Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 "}]}
+{"action":"modify","at":"2022-01-20T09:17:45.115Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C"}]}
+{"action":"modify","at":"2022-01-20T09:17:45.558Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4"}]}
+{"action":"modify","at":"2022-01-20T09:17:46.673Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 "}]}
+{"action":"modify","at":"2022-01-20T09:17:47.526Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B"}]}
+{"action":"modify","at":"2022-01-20T09:17:47.947Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4"}]}
+{"action":"modify","at":"2022-01-20T09:17:48.853Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 "}]}
+{"action":"modify","at":"2022-01-20T09:17:49.557Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A"}]}
+{"action":"modify","at":"2022-01-20T09:17:50.016Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3"}]}
+{"action":"modify","at":"2022-01-20T09:17:50.928Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 "}]}
+{"action":"modify","at":"2022-01-20T09:17:52.181Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A"}]}
+{"action":"modify","at":"2022-01-20T09:17:52.587Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4"}]}
+{"action":"modify","at":"2022-01-20T09:17:54.288Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 "}]}
+{"action":"modify","at":"2022-01-20T09:17:54.790Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 B"}]}
+{"action":"modify","at":"2022-01-20T09:17:55.637Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 B5"}]}
+{"action":"modify","at":"2022-01-20T09:18:06.833Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 B5 "}]}
+{"action":"modify","at":"2022-01-20T09:18:07.247Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 B5 C"}]}
+{"action":"modify","at":"2022-01-20T09:18:07.514Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 C2 B2 A1 A2 B3 C3 C4 B4 A3 A4 B5 C5"}]}
+{"action":"modify","at":"2022-01-20T09:24:58.793Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[]}]}
+{"action":"modify","at":"2022-01-20T09:57:02.483Z","payload":[{"op":"replace","path":["ws","players"],"value":[{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:03.278Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:04.412Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:04.975Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:05.800Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:06.410Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:06.964Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:07.600Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:08.199Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:08.783Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:09.415Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:10.002Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:10.616Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:11.347Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:12.816Z","payload":[{"op":"replace","path":["ws","players"],"value":[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}]}
+{"action":"modify","at":"2022-01-20T09:57:44.520Z","payload":[{"op":"add","path":["ws","players",0,"name"],"value":"j"},{"op":"replace","path":["ws","players",0,"name"],"value":"jc"},{"op":"replace","path":["ws","players",0,"name"],"value":"jcj"}]}
+{"action":"modify","at":"2022-01-20T09:57:45.700Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"jc"},{"op":"replace","path":["ws","players",0,"name"],"value":"j"},{"op":"replace","path":["ws","players",0,"name"],"value":""}]}
+{"action":"modify","at":"2022-01-20T09:57:47.703Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"0О"}]}
+{"action":"modify","at":"2022-01-20T09:57:48.093Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"0Ос"},{"op":"replace","path":["ws","players",0,"name"],"value":"0Осо"}]}
+{"action":"modify","at":"2022-01-20T09:57:48.304Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"0Особ"}]}
+{"action":"modify","at":"2022-01-20T09:57:49.570Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"0Особи"},{"op":"replace","path":["ws","players",0,"name"],"value":"0Особис"},{"op":"replace","path":["ws","players",0,"name"],"value":"0Особист"}]}
+{"action":"modify","at":"2022-01-20T09:57:52.728Z","payload":[{"op":"replace","path":["ws","players",0,"name"],"value":"Особист"}]}
+{"action":"modify","at":"2022-01-20T10:02:37.527Z","payload":[{"op":"add","path":["ws","players",1,"name"],"value":"S"}]}
+{"action":"modify","at":"2022-01-20T10:02:37.862Z","payload":[{"op":"replace","path":["ws","players",1,"name"],"value":"Se"},{"op":"replace","path":["ws","players",1,"name"],"value":"Ser"}]}
+{"action":"modify","at":"2022-01-20T10:02:38.831Z","payload":[{"op":"replace","path":["ws","players",1,"name"],"value":"Serg"},{"op":"replace","path":["ws","players",1,"name"],"value":"Serga"}]}
+{"action":"modify","at":"2022-01-20T10:02:43.380Z","payload":[{"op":"replace","path":["ws","players",1,"name"],"value":"Serza"},{"op":"replace","path":["ws","players",1,"name"],"value":"Serzha"}]}
+{"action":"modify","at":"2022-01-20T10:02:46.257Z","payload":[{"op":"add","path":["ws","players",2,"name"],"value":"B"}]}
+{"action":"modify","at":"2022-01-20T10:02:46.800Z","payload":[{"op":"replace","path":["ws","players",2,"name"],"value":"Ba"},{"op":"replace","path":["ws","players",2,"name"],"value":"Bah"},{"op":"replace","path":["ws","players",2,"name"],"value":"Bahu"}]}
+{"action":"modify","at":"2022-01-20T10:02:47.013Z","payload":[{"op":"replace","path":["ws","players",2,"name"],"value":"Bahus"}]}
+{"action":"modify","at":"2022-01-20T10:02:50.003Z","payload":[{"op":"add","path":["ws","players",3,"name"],"value":"K"}]}
+{"action":"modify","at":"2022-01-20T10:02:50.371Z","payload":[{"op":"replace","path":["ws","players",3,"name"],"value":"Kv"}]}
+{"action":"modify","at":"2022-01-20T10:02:50.603Z","payload":[{"op":"replace","path":["ws","players",3,"name"],"value":"Kva"}]}
+{"action":"modify","at":"2022-01-20T10:02:50.943Z","payload":[{"op":"replace","path":["ws","players",3,"name"],"value":"Kvas"},{"op":"replace","path":["ws","players",3,"name"],"value":"Kvasi"}]}
+{"action":"modify","at":"2022-01-20T10:02:51.176Z","payload":[{"op":"replace","path":["ws","players",3,"name"],"value":"Kvasir"}]}
+{"action":"modify","at":"2022-01-20T10:02:54.648Z","payload":[{"op":"add","path":["ws","players",4,"name"],"value":"V"}]}
+{"action":"modify","at":"2022-01-20T10:02:54.903Z","payload":[{"op":"replace","path":["ws","players",4,"name"],"value":"Ve"}]}
+{"action":"modify","at":"2022-01-20T10:02:55.822Z","payload":[{"op":"replace","path":["ws","players",4,"name"],"value":"Vez"},{"op":"replace","path":["ws","players",4,"name"],"value":"Vezu"}]}
+{"action":"modify","at":"2022-01-20T10:02:56.119Z","payload":[{"op":"replace","path":["ws","players",4,"name"],"value":"Vezun"}]}
+{"action":"modify","at":"2022-01-20T10:02:57.105Z","payload":[{"op":"replace","path":["ws","players",4,"name"],"value":"Vezunc"},{"op":"replace","path":["ws","players",4,"name"],"value":"Vezunch"},{"op":"replace","path":["ws","players",4,"name"],"value":"Vezunchi"},{"op":"replace","path":["ws","players",4,"name"],"value":"Vezunchik"}]}
+{"action":"modify","at":"2022-01-20T10:03:00.460Z","payload":[{"op":"replace","path":["ws","players",4,"name"],"value":"Vezun4ik"}]}
+{"action":"modify","at":"2022-01-20T10:03:07.736Z","payload":[{"op":"add","path":["ws","players",5,"name"],"value":"D"}]}
+{"action":"modify","at":"2022-01-20T10:03:08.393Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Dr"},{"op":"replace","path":["ws","players",5,"name"],"value":"Dru"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drun"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunk"}]}
+{"action":"modify","at":"2022-01-20T10:03:08.847Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunke"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken"}]}
+{"action":"modify","at":"2022-01-20T10:03:09.180Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken "}]}
+{"action":"modify","at":"2022-01-20T10:03:09.755Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken C"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Ch"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chi"}]}
+{"action":"modify","at":"2022-01-20T10:03:10.141Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chic"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chich"}]}
+{"action":"modify","at":"2022-01-20T10:03:10.577Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chic"}]}
+{"action":"modify","at":"2022-01-20T10:03:10.895Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chick"},{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chicke"}]}
+{"action":"modify","at":"2022-01-20T10:03:11.407Z","payload":[{"op":"replace","path":["ws","players",5,"name"],"value":"Drunken Chicken"}]}
+{"action":"modify","at":"2022-01-20T10:03:36.981Z","payload":[{"op":"add","path":["ws","players",6,"name"],"value":"K"}]}
+{"action":"modify","at":"2022-01-20T10:03:37.740Z","payload":[{"op":"replace","path":["ws","players",6,"name"],"value":"Kr"},{"op":"replace","path":["ws","players",6,"name"],"value":"Kru"},{"op":"replace","path":["ws","players",6,"name"],"value":"Krun"},{"op":"replace","path":["ws","players",6,"name"],"value":"Kruna"}]}
+{"action":"modify","at":"2022-01-20T10:03:38.402Z","payload":[{"op":"replace","path":["ws","players",6,"name"],"value":"Krunar"},{"op":"replace","path":["ws","players",6,"name"],"value":"Krunaro"}]}
+{"action":"modify","at":"2022-01-20T10:03:41.760Z","payload":[{"op":"add","path":["ws","players",7,"name"],"value":"P"}]}
+{"action":"modify","at":"2022-01-20T10:03:42.082Z","payload":[{"op":"replace","path":["ws","players",7,"name"],"value":"Pr"},{"op":"replace","path":["ws","players",7,"name"],"value":"Pro"}]}
+{"action":"modify","at":"2022-01-20T10:03:42.332Z","payload":[{"op":"replace","path":["ws","players",7,"name"],"value":"Prob"}]}
+{"action":"modify","at":"2022-01-20T10:03:42.926Z","payload":[{"op":"replace","path":["ws","players",7,"name"],"value":"Probr"}]}
+{"action":"modify","at":"2022-01-20T10:03:43.171Z","payload":[{"op":"replace","path":["ws","players",7,"name"],"value":"Probro"}]}
+{"action":"modify","at":"2022-01-20T10:03:46.879Z","payload":[{"op":"add","path":["ws","players",8,"name"],"value":"M"}]}
+{"action":"modify","at":"2022-01-20T10:03:47.189Z","payload":[{"op":"replace","path":["ws","players",8,"name"],"value":"Mi"},{"op":"replace","path":["ws","players",8,"name"],"value":"Mir"}]}
+{"action":"modify","at":"2022-01-20T10:03:50.933Z","payload":[{"op":"add","path":["ws","players",9,"name"],"value":"D"}]}
+{"action":"modify","at":"2022-01-20T10:03:51.386Z","payload":[{"op":"replace","path":["ws","players",9,"name"],"value":"De"},{"op":"replace","path":["ws","players",9,"name"],"value":"Den"},{"op":"replace","path":["ws","players",9,"name"],"value":"Deni"}]}
+{"action":"modify","at":"2022-01-20T10:03:51.769Z","payload":[{"op":"replace","path":["ws","players",9,"name"],"value":"Denis"}]}
+{"action":"modify","at":"2022-01-20T10:03:52.243Z","payload":[{"op":"replace","path":["ws","players",9,"name"],"value":"DenisM"}]}
+{"action":"modify","at":"2022-01-20T10:03:52.572Z","payload":[{"op":"replace","path":["ws","players",9,"name"],"value":"DenisMi"},{"op":"replace","path":["ws","players",9,"name"],"value":"DenisMig"}]}
+{"action":"modify","at":"2022-01-20T10:03:57.415Z","payload":[{"op":"add","path":["ws","players",10,"name"],"value":"С"},{"op":"replace","path":["ws","players",10,"name"],"value":"Ст"},{"op":"replace","path":["ws","players",10,"name"],"value":"Сто"},{"op":"replace","path":["ws","players",10,"name"],"value":"Стой"}]}
+{"action":"modify","at":"2022-01-20T10:03:58.716Z","payload":[{"op":"replace","path":["ws","players",10,"name"],"value":"СтойС"},{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСт"}]}
+{"action":"modify","at":"2022-01-20T10:03:58.936Z","payload":[{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСто"}]}
+{"action":"modify","at":"2022-01-20T10:03:59.472Z","payload":[{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСтор"},{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСторо"},{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСторон"}]}
+{"action":"modify","at":"2022-01-20T10:03:59.707Z","payload":[{"op":"replace","path":["ws","players",10,"name"],"value":"СтойСтороны"}]}
+{"action":"modify","at":"2022-01-20T10:04:03.334Z","payload":[{"op":"add","path":["ws","players",11,"name"],"value":"К"},{"op":"replace","path":["ws","players",11,"name"],"value":"Ко"},{"op":"replace","path":["ws","players",11,"name"],"value":"Кос"},{"op":"replace","path":["ws","players",11,"name"],"value":"Кост"},{"op":"replace","path":["ws","players",11,"name"],"value":"Костя"}]}
+{"action":"modify","at":"2022-01-20T10:04:06.524Z","payload":[{"op":"add","path":["ws","players",12,"name"],"value":"m"},{"op":"replace","path":["ws","players",12,"name"],"value":"ma"}]}
+{"action":"modify","at":"2022-01-20T10:04:07.354Z","payload":[{"op":"replace","path":["ws","players",12,"name"],"value":"maz"},{"op":"replace","path":["ws","players",12,"name"],"value":"mazz"}]}
+{"action":"modify","at":"2022-01-20T10:04:07.640Z","payload":[{"op":"replace","path":["ws","players",12,"name"],"value":"mazza"}]}
+{"action":"modify","at":"2022-01-20T10:04:09.218Z","payload":[{"op":"replace","path":["ws","players",12,"name"],"value":"mazzat"},{"op":"replace","path":["ws","players",12,"name"],"value":"mazzato"},{"op":"replace","path":["ws","players",12,"name"],"value":"mazzatol"}]}
+{"action":"modify","at":"2022-01-20T10:04:09.564Z","payload":[{"op":"replace","path":["ws","players",12,"name"],"value":"mazzatoli"},{"op":"replace","path":["ws","players",12,"name"],"value":"mazzatolik"}]}
+{"action":"modify","at":"2022-01-20T10:04:12.073Z","payload":[{"op":"add","path":["ws","players",13,"name"],"value":"A"},{"op":"replace","path":["ws","players",13,"name"],"value":"AL"}]}
+{"action":"modify","at":"2022-01-20T10:04:15.476Z","payload":[{"op":"add","path":["ws","players",14,"name"],"value":"D"},{"op":"replace","path":["ws","players",14,"name"],"value":"Da"}]}
+{"action":"modify","at":"2022-01-20T10:04:15.828Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dar"},{"op":"replace","path":["ws","players",14,"name"],"value":"Dark"}]}
+{"action":"modify","at":"2022-01-20T10:04:16.155Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dark "}]}
+{"action":"modify","at":"2022-01-20T10:04:16.656Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dark L"},{"op":"replace","path":["ws","players",14,"name"],"value":"Dark Lo"}]}
+{"action":"modify","at":"2022-01-20T10:04:17.102Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dark Lor"},{"op":"replace","path":["ws","players",14,"name"],"value":"Dark Lord"}]}
+{"action":"modify","at":"2022-01-20T10:04:19.543Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dark ord"}]}
+{"action":"modify","at":"2022-01-20T10:04:19.806Z","payload":[{"op":"replace","path":["ws","players",14,"name"],"value":"Dark lord"}]}
+{"action":"modify","at":"2022-01-20T10:04:52.641Z","payload":[{"op":"add","path":["ws","players",0,"minerLevel"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:04:53.341Z","payload":[{"op":"add","path":["ws","players",2,"minerLevel"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:04:59.798Z","payload":[{"op":"add","path":["ws","players",8,"minerLevel"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:05:01.757Z","payload":[{"op":"add","path":["ws","players",7,"minerLevel"],"value":4}]}
+{"action":"modify","at":"2022-01-20T10:05:03.455Z","payload":[{"op":"add","path":["ws","players",1,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:03.985Z","payload":[{"op":"add","path":["ws","players",3,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:04.767Z","payload":[{"op":"add","path":["ws","players",4,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:05.329Z","payload":[{"op":"add","path":["ws","players",5,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:05.895Z","payload":[{"op":"add","path":["ws","players",6,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:06.801Z","payload":[{"op":"add","path":["ws","players",9,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:07.310Z","payload":[{"op":"add","path":["ws","players",10,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:07.863Z","payload":[{"op":"add","path":["ws","players",11,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:08.424Z","payload":[{"op":"add","path":["ws","players",12,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:08.976Z","payload":[{"op":"add","path":["ws","players",13,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:09.779Z","payload":[{"op":"add","path":["ws","players",14,"minerLevel"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:05:29.924Z","payload":[{"op":"add","path":["ws","players",0,"capacity"],"value":4}]}
+{"action":"modify","at":"2022-01-20T10:05:30.429Z","payload":[{"op":"replace","path":["ws","players",0,"capacity"],"value":45},{"op":"replace","path":["ws","players",0,"capacity"],"value":450},{"op":"replace","path":["ws","players",0,"capacity"],"value":4500}]}
+{"action":"modify","at":"2022-01-20T10:05:34.606Z","payload":[{"op":"add","path":["ws","players",1,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:05:34.972Z","payload":[{"op":"replace","path":["ws","players",1,"capacity"],"value":28},{"op":"replace","path":["ws","players",1,"capacity"],"value":284}]}
+{"action":"modify","at":"2022-01-20T10:05:35.448Z","payload":[{"op":"replace","path":["ws","players",1,"capacity"],"value":28}]}
+{"action":"modify","at":"2022-01-20T10:05:35.715Z","payload":[{"op":"replace","path":["ws","players",1,"capacity"],"value":285}]}
+{"action":"modify","at":"2022-01-20T10:05:36.557Z","payload":[{"op":"replace","path":["ws","players",1,"capacity"],"value":2850}]}
+{"action":"modify","at":"2022-01-20T10:05:38.115Z","payload":[{"op":"add","path":["ws","players",2,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:05:38.446Z","payload":[{"op":"replace","path":["ws","players",2,"capacity"],"value":27}]}
+{"action":"modify","at":"2022-01-20T10:05:38.802Z","payload":[{"op":"replace","path":["ws","players",2,"capacity"],"value":275}]}
+{"action":"modify","at":"2022-01-20T10:05:39.016Z","payload":[{"op":"replace","path":["ws","players",2,"capacity"],"value":2750}]}
+{"action":"modify","at":"2022-01-20T10:05:42.393Z","payload":[{"op":"add","path":["ws","players",3,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:05:42.924Z","payload":[{"op":"replace","path":["ws","players",3,"capacity"],"value":25},{"op":"replace","path":["ws","players",3,"capacity"],"value":250},{"op":"replace","path":["ws","players",3,"capacity"],"value":2500}]}
+{"action":"modify","at":"2022-01-20T10:05:55.784Z","payload":[{"op":"replace","path":["ws","players",3,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:05:56.168Z","payload":[{"op":"replace","path":["ws","players",3,"capacity"],"value":220}]}
+{"action":"modify","at":"2022-01-20T10:05:56.749Z","payload":[{"op":"replace","path":["ws","players",3,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:05:57.549Z","payload":[{"op":"replace","path":["ws","players",3,"capacity"],"value":225},{"op":"replace","path":["ws","players",3,"capacity"],"value":2250}]}
+{"action":"modify","at":"2022-01-20T10:06:01.154Z","payload":[{"op":"add","path":["ws","players",4,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:06:01.619Z","payload":[{"op":"replace","path":["ws","players",4,"capacity"],"value":25},{"op":"replace","path":["ws","players",4,"capacity"],"value":250},{"op":"replace","path":["ws","players",4,"capacity"],"value":2500}]}
+{"action":"modify","at":"2022-01-20T10:06:05.728Z","payload":[{"op":"add","path":["ws","players",5,"capacity"],"value":2},{"op":"replace","path":["ws","players",5,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:06:06.133Z","payload":[{"op":"replace","path":["ws","players",5,"capacity"],"value":225},{"op":"replace","path":["ws","players",5,"capacity"],"value":2250}]}
+{"action":"modify","at":"2022-01-20T10:06:09.924Z","payload":[{"op":"add","path":["ws","players",6,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:06:10.426Z","payload":[{"op":"replace","path":["ws","players",6,"capacity"],"value":20},{"op":"replace","path":["ws","players",6,"capacity"],"value":200},{"op":"replace","path":["ws","players",6,"capacity"],"value":2000}]}
+{"action":"modify","at":"2022-01-20T10:06:15.036Z","payload":[{"op":"add","path":["ws","players",7,"capacity"],"value":2},{"op":"replace","path":["ws","players",7,"capacity"],"value":23}]}
+{"action":"modify","at":"2022-01-20T10:06:15.372Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":230},{"op":"replace","path":["ws","players",7,"capacity"],"value":2300}]}
+{"action":"modify","at":"2022-01-20T10:06:18.846Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:06:19.191Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":220}]}
+{"action":"modify","at":"2022-01-20T10:06:19.666Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:06:20.147Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":225},{"op":"replace","path":["ws","players",7,"capacity"],"value":2250}]}
+{"action":"modify","at":"2022-01-20T10:06:23.847Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":23}]}
+{"action":"modify","at":"2022-01-20T10:06:24.163Z","payload":[{"op":"replace","path":["ws","players",7,"capacity"],"value":230},{"op":"replace","path":["ws","players",7,"capacity"],"value":2300}]}
+{"action":"modify","at":"2022-01-20T10:06:30.307Z","payload":[{"op":"add","path":["ws","players",8,"capacity"],"value":3},{"op":"replace","path":["ws","players",8,"capacity"],"value":33}]}
+{"action":"modify","at":"2022-01-20T10:06:30.595Z","payload":[{"op":"replace","path":["ws","players",8,"capacity"],"value":335}]}
+{"action":"modify","at":"2022-01-20T10:06:30.802Z","payload":[{"op":"replace","path":["ws","players",8,"capacity"],"value":3350}]}
+{"action":"modify","at":"2022-01-20T10:06:34.843Z","payload":[{"op":"add","path":["ws","players",9,"capacity"],"value":2},{"op":"replace","path":["ws","players",9,"capacity"],"value":23}]}
+{"action":"modify","at":"2022-01-20T10:06:35.333Z","payload":[{"op":"replace","path":["ws","players",9,"capacity"],"value":237},{"op":"replace","path":["ws","players",9,"capacity"],"value":2370}]}
+{"action":"modify","at":"2022-01-20T10:06:38.995Z","payload":[{"op":"add","path":["ws","players",10,"capacity"],"value":2},{"op":"replace","path":["ws","players",10,"capacity"],"value":22}]}
+{"action":"modify","at":"2022-01-20T10:06:39.439Z","payload":[{"op":"replace","path":["ws","players",10,"capacity"],"value":225},{"op":"replace","path":["ws","players",10,"capacity"],"value":2250}]}
+{"action":"modify","at":"2022-01-20T10:06:43.409Z","payload":[{"op":"add","path":["ws","players",11,"capacity"],"value":2},{"op":"replace","path":["ws","players",11,"capacity"],"value":20},{"op":"replace","path":["ws","players",11,"capacity"],"value":200},{"op":"replace","path":["ws","players",11,"capacity"],"value":2000}]}
+{"action":"modify","at":"2022-01-20T10:06:45.771Z","payload":[{"op":"add","path":["ws","players",12,"capacity"],"value":2},{"op":"replace","path":["ws","players",12,"capacity"],"value":20},{"op":"replace","path":["ws","players",12,"capacity"],"value":200},{"op":"replace","path":["ws","players",12,"capacity"],"value":2000}]}
+{"action":"modify","at":"2022-01-20T10:06:48.297Z","payload":[{"op":"add","path":["ws","players",13,"capacity"],"value":2},{"op":"replace","path":["ws","players",13,"capacity"],"value":20},{"op":"replace","path":["ws","players",13,"capacity"],"value":200}]}
+{"action":"modify","at":"2022-01-20T10:06:48.522Z","payload":[{"op":"replace","path":["ws","players",13,"capacity"],"value":2000}]}
+{"action":"modify","at":"2022-01-20T10:06:51.424Z","payload":[{"op":"add","path":["ws","players",14,"capacity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:06:51.807Z","payload":[{"op":"replace","path":["ws","players",14,"capacity"],"value":28}]}
+{"action":"modify","at":"2022-01-20T10:06:52.277Z","payload":[{"op":"replace","path":["ws","players",14,"capacity"],"value":285},{"op":"replace","path":["ws","players",14,"capacity"],"value":2850}]}
+{"action":"modify","at":"2022-01-20T10:07:08.641Z","payload":[{"op":"add","path":["ws","players",0,"remoteMining"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:09.180Z","payload":[{"op":"add","path":["ws","players",1,"remoteMining"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:10.348Z","payload":[{"op":"add","path":["ws","players",2,"remoteMining"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:07:11.560Z","payload":[{"op":"add","path":["ws","players",3,"remoteMining"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:23.185Z","payload":[{"op":"add","path":["ws","players",4,"remoteMining"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:07:23.686Z","payload":[{"op":"add","path":["ws","players",5,"remoteMining"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:07:25.400Z","payload":[{"op":"add","path":["ws","players",6,"remoteMining"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:26.490Z","payload":[{"op":"add","path":["ws","players",7,"remoteMining"],"value":4}]}
+{"action":"modify","at":"2022-01-20T10:07:32.262Z","payload":[{"op":"add","path":["ws","players",0,"miningBoost"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:32.787Z","payload":[{"op":"add","path":["ws","players",1,"miningBoost"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:33.319Z","payload":[{"op":"add","path":["ws","players",2,"miningBoost"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:34.272Z","payload":[{"op":"add","path":["ws","players",3,"miningBoost"],"value":9}]}
+{"action":"modify","at":"2022-01-20T10:07:40.398Z","payload":[{"op":"add","path":["ws","players",4,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:07:40.918Z","payload":[{"op":"add","path":["ws","players",5,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:07:41.986Z","payload":[{"op":"add","path":["ws","players",6,"miningBoost"],"value":9}]}
+{"action":"modify","at":"2022-01-20T10:07:43.878Z","payload":[{"op":"add","path":["ws","players",7,"miningBoost"],"value":3}]}
+{"action":"modify","at":"2022-01-20T10:07:48.409Z","payload":[{"op":"add","path":["ws","players",0,"minerUnity"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:07:48.890Z","payload":[{"op":"add","path":["ws","players",1,"minerUnity"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:07:49.972Z","payload":[{"op":"add","path":["ws","players",2,"minerUnity"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:07:50.619Z","payload":[{"op":"add","path":["ws","players",3,"minerUnity"],"value":9}]}
+{"action":"modify","at":"2022-01-20T10:07:59.133Z","payload":[{"op":"add","path":["ws","players",4,"minerUnity"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:00.259Z","payload":[{"op":"add","path":["ws","players",5,"minerUnity"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:08:00.897Z","payload":[{"op":"add","path":["ws","players",6,"minerUnity"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:19.397Z","payload":[{"op":"add","path":["ws","players",7,"minerUnity"],"value":0}]}
+{"action":"modify","at":"2022-01-20T10:08:29.179Z","payload":[{"op":"add","path":["ws","players",8,"remoteMining"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:30.183Z","payload":[{"op":"add","path":["ws","players",9,"remoteMining"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:08:30.769Z","payload":[{"op":"add","path":["ws","players",10,"remoteMining"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:08:32.087Z","payload":[{"op":"add","path":["ws","players",11,"remoteMining"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:08:37.228Z","payload":[{"op":"add","path":["ws","players",8,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:37.701Z","payload":[{"op":"add","path":["ws","players",9,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:38.218Z","payload":[{"op":"add","path":["ws","players",10,"miningBoost"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:08:39.106Z","payload":[{"op":"add","path":["ws","players",11,"miningBoost"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:08:45.561Z","payload":[{"op":"add","path":["ws","players",8,"minerUnity"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:08:46.610Z","payload":[{"op":"add","path":["ws","players",9,"minerUnity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:08:47.547Z","payload":[{"op":"add","path":["ws","players",10,"minerUnity"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:08:48.457Z","payload":[{"op":"add","path":["ws","players",11,"minerUnity"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:09:10.564Z","payload":[{"op":"add","path":["ws","players",12,"remoteMining"],"value":7}]}
+{"action":"modify","at":"2022-01-20T10:09:11.372Z","payload":[{"op":"add","path":["ws","players",13,"remoteMining"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:09:12.425Z","payload":[{"op":"add","path":["ws","players",14,"remoteMining"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:09:17.400Z","payload":[{"op":"add","path":["ws","players",12,"miningBoost"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:09:17.951Z","payload":[{"op":"add","path":["ws","players",13,"miningBoost"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:09:18.936Z","payload":[{"op":"add","path":["ws","players",14,"miningBoost"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:09:23.043Z","payload":[{"op":"add","path":["ws","players",12,"minerUnity"],"value":1}]}
+{"action":"modify","at":"2022-01-20T10:09:24.306Z","payload":[{"op":"add","path":["ws","players",13,"minerUnity"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:09:24.967Z","payload":[{"op":"add","path":["ws","players",14,"minerUnity"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:09:53.345Z","payload":[{"op":"add","path":["ws","players",0,"relicDrone"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:09:54.449Z","payload":[{"op":"add","path":["ws","players",1,"relicDrone"],"value":3}]}
+{"action":"modify","at":"2022-01-20T10:09:56.011Z","payload":[{"op":"add","path":["ws","players",2,"relicDrone"],"value":1}]}
+{"action":"modify","at":"2022-01-20T10:09:56.470Z","payload":[{"op":"replace","path":["ws","players",2,"relicDrone"],"value":12}]}
+{"action":"modify","at":"2022-01-20T10:10:00.893Z","payload":[{"op":"add","path":["ws","players",3,"relicDrone"],"value":3}]}
+{"action":"modify","at":"2022-01-20T10:10:01.773Z","payload":[{"op":"add","path":["ws","players",4,"relicDrone"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:10:05.803Z","payload":[{"op":"add","path":["ws","players",6,"relicDrone"],"value":6}]}
+{"action":"modify","at":"2022-01-20T10:10:06.434Z","payload":[{"op":"add","path":["ws","players",7,"relicDrone"],"value":1}]}
+{"action":"modify","at":"2022-01-20T10:10:11.786Z","payload":[{"op":"add","path":["ws","players",8,"relicDrone"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:10:12.428Z","payload":[{"op":"add","path":["ws","players",9,"relicDrone"],"value":1}]}
+{"action":"modify","at":"2022-01-20T10:10:13.553Z","payload":[{"op":"add","path":["ws","players",10,"relicDrone"],"value":5}]}
+{"action":"modify","at":"2022-01-20T10:10:14.268Z","payload":[{"op":"add","path":["ws","players",11,"relicDrone"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:10:18.808Z","payload":[{"op":"add","path":["ws","players",12,"relicDrone"],"value":2}]}
+{"action":"modify","at":"2022-01-20T10:10:20.106Z","payload":[{"op":"add","path":["ws","players",13,"relicDrone"],"value":8}]}
+{"action":"modify","at":"2022-01-20T10:10:21.169Z","payload":[{"op":"add","path":["ws","players",14,"relicDrone"],"value":3}]}
+{"action":"modify","at":"2022-01-20T10:10:50.351Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","players":[],"path":""}]}]}
+{"action":"modify","at":"2022-01-20T10:10:53.686Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B"}]}
+{"action":"modify","at":"2022-01-20T10:10:54.044Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1"}]}
+{"action":"modify","at":"2022-01-20T10:10:54.956Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 "}]}
+{"action":"modify","at":"2022-01-20T10:10:55.544Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A"}]}
+{"action":"modify","at":"2022-01-20T10:10:55.814Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1"}]}
+{"action":"modify","at":"2022-01-20T10:10:56.130Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 "}]}
+{"action":"modify","at":"2022-01-20T10:10:57.772Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A"}]}
+{"action":"modify","at":"2022-01-20T10:10:58.145Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2"}]}
+{"action":"modify","at":"2022-01-20T10:10:58.428Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 "}]}
+{"action":"modify","at":"2022-01-20T10:10:58.929Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A"}]}
+{"action":"modify","at":"2022-01-20T10:10:59.377Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3"}]}
+{"action":"modify","at":"2022-01-20T10:10:59.806Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 "}]}
+{"action":"modify","at":"2022-01-20T10:11:00.395Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 A"}]}
+{"action":"modify","at":"2022-01-20T10:11:00.727Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 A4"}]}
+{"action":"modify","at":"2022-01-20T10:11:01.084Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 A4 "}]}
+{"action":"modify","at":"2022-01-20T10:11:02.513Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 A4 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:03.137Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1 A1 A2 A3 A4 B5"}]}
+{"action":"modify","at":"2022-01-20T10:11:06.292Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","players":[],"path":"B1 A1 A2 A3 A4 B5"},{"color":"blue","players":[],"path":""}]}]}
+{"action":"modify","at":"2022-01-20T10:11:18.067Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B"}]}
+{"action":"modify","at":"2022-01-20T10:11:18.769Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B1"}]}
+{"action":"modify","at":"2022-01-20T10:11:19.871Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B1 "}]}
+{"action":"modify","at":"2022-01-20T10:11:20.230Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B1 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:20.614Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B1 B2"}]}
+{"action":"modify","at":"2022-01-20T10:11:25.747Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"B1A1 A2 A3 A4 B5"},{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"BA1 A2 A3 A4 B5"}]}
+{"action":"modify","at":"2022-01-20T10:11:26.038Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 A4 B5"}]}
+{"action":"modify","at":"2022-01-20T10:11:28.328Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B1B2"},{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"BB2"}]}
+{"action":"modify","at":"2022-01-20T10:11:28.609Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2"}]}
+{"action":"modify","at":"2022-01-20T10:11:30.225Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 "}]}
+{"action":"modify","at":"2022-01-20T10:11:30.662Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:31.013Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3"}]}
+{"action":"modify","at":"2022-01-20T10:11:31.283Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 "}]}
+{"action":"modify","at":"2022-01-20T10:11:32.300Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:32.726Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 B4"}]}
+{"action":"modify","at":"2022-01-20T10:11:32.961Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 B4 "}]}
+{"action":"modify","at":"2022-01-20T10:11:34.023Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 B4 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:34.385Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"path"],"value":"B2 B3 B4 B5"}]}
+{"action":"modify","at":"2022-01-20T10:11:37.783Z","payload":[{"op":"replace","path":["ws","minerGroups"],"value":[{"color":"green","players":[],"path":"A1 A2 A3 A4 B5"},{"color":"blue","players":[],"path":"B2 B3 B4 B5"},{"color":"yellow","players":[],"path":""}]}]}
+{"action":"modify","at":"2022-01-20T10:11:39.793Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0C"}]}
+{"action":"modify","at":"2022-01-20T10:11:40.577Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0C2"}]}
+{"action":"modify","at":"2022-01-20T10:11:41.814Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0C"},{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0"}]}
+{"action":"modify","at":"2022-01-20T10:11:42.198Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":""}]}
+{"action":"modify","at":"2022-01-20T10:11:43.346Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0C"}]}
+{"action":"modify","at":"2022-01-20T10:11:43.571Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"0C2"}]}
+{"action":"modify","at":"2022-01-20T10:11:44.193Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2"}]}
+{"action":"modify","at":"2022-01-20T10:11:45.388Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 "}]}
+{"action":"modify","at":"2022-01-20T10:11:45.956Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C"}]}
+{"action":"modify","at":"2022-01-20T10:11:46.259Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3"},{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 "}]}
+{"action":"modify","at":"2022-01-20T10:11:47.151Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C"}]}
+{"action":"modify","at":"2022-01-20T10:11:47.617Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4"}]}
+{"action":"modify","at":"2022-01-20T10:11:48.563Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 "}]}
+{"action":"modify","at":"2022-01-20T10:11:49.094Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C"}]}
+{"action":"modify","at":"2022-01-20T10:11:49.468Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5"}]}
+{"action":"modify","at":"2022-01-20T10:11:52.865Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5 "}]}
+{"action":"modify","at":"2022-01-20T10:11:53.669Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5 B"}]}
+{"action":"modify","at":"2022-01-20T10:11:54.038Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5 B5"}]}
+{"action":"modify","at":"2022-01-20T10:12:03.000Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 A4 B"},{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 A4 "}]}
+{"action":"modify","at":"2022-01-20T10:12:05.061Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5 B"},{"op":"replace","path":["ws","minerGroups",2,"path"],"value":"C2 C3 C4 C5 "}]}
+{"action":"modify","at":"2022-01-20T10:12:33.436Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-20T10:12:46.783Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",0],"value":"Особист"}]}
+{"action":"modify","at":"2022-01-20T10:12:53.100Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Особист",""]}]}
+{"action":"modify","at":"2022-01-20T10:13:09.721Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",1],"value":"Mir"}]}
+{"action":"modify","at":"2022-01-20T10:13:12.555Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Особист","Mir",""]}]}
+{"action":"modify","at":"2022-01-20T10:13:14.971Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",2],"value":"СтойСтороны"}]}
+{"action":"modify","at":"2022-01-20T10:13:21.028Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players"],"value":["Особист","Mir","СтойСтороны",""]}]}
+{"action":"modify","at":"2022-01-20T10:13:27.863Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"players",3],"value":"DenisMig"}]}
+{"action":"modify","at":"2022-01-20T10:14:08.786Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-20T10:14:11.067Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",0],"value":"Probro"}]}
+{"action":"modify","at":"2022-01-20T10:14:12.951Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro",""]}]}
+{"action":"modify","at":"2022-01-20T10:14:21.298Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",1],"value":"Vezun4ik"}]}
+{"action":"modify","at":"2022-01-20T10:14:22.581Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik",""]}]}
+{"action":"modify","at":"2022-01-20T10:14:27.982Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",2],"value":"Костя"}]}
+{"action":"modify","at":"2022-01-20T10:15:32.506Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":[""]}]}
+{"action":"modify","at":"2022-01-20T10:15:40.648Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",0],"value":"Dark lord"}]}
+{"action":"modify","at":"2022-01-20T10:15:58.193Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord",""]}]}
+{"action":"modify","at":"2022-01-20T10:16:02.288Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",1],"value":"mazzatolik"}]}
+{"action":"modify","at":"2022-01-20T10:16:03.420Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik",""]}]}
+{"action":"modify","at":"2022-01-20T10:16:43.713Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",2],"value":"Krunaro"}]}
+{"action":"modify","at":"2022-01-20T10:16:46.113Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik","Krunaro",""]}]}
+{"action":"modify","at":"2022-01-20T10:16:59.754Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",3],"value":"Drunken Chicken"}]}
+{"action":"modify","at":"2022-01-20T10:17:01.492Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik","Krunaro","Drunken Chicken",""]}]}
+{"action":"modify","at":"2022-01-20T10:17:15.659Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",4],"value":"Kvasir"}]}
+{"action":"modify","at":"2022-01-20T10:17:16.885Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik","Krunaro","Drunken Chicken","Kvasir",""]}]}
+{"action":"modify","at":"2022-01-20T10:17:41.797Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik","Krunaro","Drunken Chicken","Kvasir"]}]}
+{"action":"modify","at":"2022-01-20T10:17:43.902Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",4],"value":"Serzha"}]}
+{"action":"modify","at":"2022-01-20T11:24:29.567Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3"}]}
+{"action":"modify","at":"2022-01-20T11:24:38.360Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 "}]}
+{"action":"modify","at":"2022-01-20T11:24:39.498Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 B"}]}
+{"action":"modify","at":"2022-01-20T11:24:40.025Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 B2"}]}
+{"action":"modify","at":"2022-01-20T11:24:43.947Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3"}]}
+{"action":"modify","at":"2022-01-20T11:24:54.687Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 "}]}
+{"action":"modify","at":"2022-01-20T11:24:55.256Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 A"}]}
+{"action":"modify","at":"2022-01-20T11:24:55.710Z","payload":[{"op":"replace","path":["ws","minerGroups",0,"path"],"value":"A1 A2 A3 A4"}]}
+{"action":"modify","at":"2022-01-20T20:46:28.200Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["Dark lord","mazzatolik","Krunaro","Drunken Chicken"]}]}
+{"action":"modify","at":"2022-01-20T20:46:29.597Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik","Костя",""]}]}
+{"action":"modify","at":"2022-01-20T20:46:32.231Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",3],"value":"Serzha"}]}
+{"action":"modify","at":"2022-01-20T20:46:45.755Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["mazzatolik","Krunaro","Drunken Chicken"]}]}
+{"action":"modify","at":"2022-01-20T20:46:47.070Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik","Костя","Serzha",""]}]}
+{"action":"modify","at":"2022-01-20T20:46:54.744Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",4],"value":"Dark lord"}]}
+{"action":"modify","at":"2022-01-20T20:47:21.369Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik","Костя","Serzha"]}]}
+{"action":"modify","at":"2022-01-20T20:47:24.132Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik","Костя"]}]}
+{"action":"modify","at":"2022-01-20T20:47:28.847Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["mazzatolik","Krunaro","Drunken Chicken",""]}]}
+{"action":"modify","at":"2022-01-20T20:47:31.089Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",3],"value":"Serzha"}]}
+{"action":"modify","at":"2022-01-20T20:47:31.973Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["mazzatolik","Krunaro","Drunken Chicken","Serzha",""]}]}
+{"action":"modify","at":"2022-01-20T20:47:37.921Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players",4],"value":"Dark lord"}]}
+{"action":"modify","at":"2022-01-20T20:47:40.136Z","payload":[{"op":"replace","path":["ws","minerGroups",2,"players"],"value":["mazzatolik","Drunken Chicken","Serzha","Dark lord"]}]}
+{"action":"modify","at":"2022-01-20T20:47:41.224Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players"],"value":["Probro","Vezun4ik","Костя",""]}]}
+{"action":"modify","at":"2022-01-20T20:47:44.647Z","payload":[{"op":"replace","path":["ws","minerGroups",1,"players",3],"value":"Krunaro"}]}
