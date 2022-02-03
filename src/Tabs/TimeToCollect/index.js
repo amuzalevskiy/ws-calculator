@@ -22,6 +22,11 @@ _.defaultsDeep(defaultSettings, {
   },
 })
 
+
+function getWaypoints(minerGroup) {
+  return minerGroup.path ? minerGroup.path.split(' ').filter(x => x.length === 2) : []  
+}
+
 const sectors800 = [ 'B2', 'C2', 'D2', 'E2', 'F2',
                      'B3', 'F3',
                      'B4', 'C5', 'D6', 'E5', 'F4' ]
@@ -140,7 +145,7 @@ function calculateBestMiningTimeWithUnity(miningTasksOrig, minerGroup, players) 
 
 const UNITY_DURATION = 50
 function calculateMining(miningTasks, miners, minerGroup, combinationOpp, bestTotalTime) {
-  let totalTime = 0;
+  let totalTime = 0.01;
   let moveTime = 0;
   let miningTime = 0;
 
@@ -385,14 +390,14 @@ const PathDetails = React.memo(function PathDetails({minerGroup, sectors, player
         case 'unity':
           assignedTasks.push({
             playerName: miner.name,
-            type: 'unity at',
+            type: 'профик',
             sector: sector,
           })
           break
         case 'crunch':
           assignedTasks.push({
             playerName: miner.name,
-            type: 'crunch',
+            type: 'кризис',
             sector: sector,
           })
           break
@@ -429,6 +434,3 @@ const PathDetails = React.memo(function PathDetails({minerGroup, sectors, player
 })
 
 export default TimeToCollect
-function getWaypoints(minerGroup) {
-  return minerGroup.path ? minerGroup.path.split(' ').filter(x => x.length === 2) : []  
-}
