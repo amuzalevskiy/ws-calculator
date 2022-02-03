@@ -8,8 +8,8 @@
     "eject": "react-scripts eject",
     "build": "react-scripts build",
     "server": "node ./server/index.js",
-    "build-nano": "REACT_APP_HOST=ec2-3-68-118-180.eu-ceral-1.compute.amazonaws.com REACT_APP_PORT=3030 npm run build",
-    "server-nano": "REACT_APP_HOST=ec2-3-68-118-180.eu-ceral-1.compute.amazonaws.com REACT_APP_PORT=3030 npm run server"
+    "build-nano": "REACT_APP_HOST=ec2-3-68-118-180.eu-central-1.compute.amazonaws.com REACT_APP_PORT=3030 npm run build",
+    "server-nano": "REACT_APP_HOST=ec2-3-68-118-180.eu-central-1.compute.amazonaws.com REACT_APP_PORT=3030 npm run server"
   },
   "dependencies": {
     "@lvchengbin/event-emitter": "^1.0.2",
