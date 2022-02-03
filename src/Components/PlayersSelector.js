@@ -24,7 +24,7 @@ const PlayersSelector = ({ pointer, children }) => {
           value: v.name
         }
       })
-      return <div>
+      return <div key={i}>
         <DirectSelect pointer={`${pointer}/${i}`} options={playerOptions} />
         <button className={styles.minusButton} onClick={() => removePlayer(playerName)}>-</button>
       </div>

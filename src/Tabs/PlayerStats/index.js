@@ -6,7 +6,7 @@ import _ from 'lodash'
 import { defaultSettings } from '../../defaultSettings'
 
 import styles from './index.module.css'
-import { getMiningBoost, getMiningSpeed, getRemoteMining } from '../../Math/game'
+import { getMiningBoost, getMiningSpeed, getRemoteMining, getMiningUnityPerPlayer, getCrunchAmount } from '../../Math/game'
 
 
 _.defaultsDeep(defaultSettings, {
@@ -28,17 +28,21 @@ const PlayerStats = () => {
         <th className={styles.verticalLabels} style={{width: 50}}><span>Скорость добычи</span></th>
         <th className={styles.verticalLabels} style={{width: 50}}><span>Буст</span></th>
         <th className={styles.verticalLabels} style={{width: 50}}><span>Удаленная добыча</span></th>
+        <th className={styles.verticalLabels} style={{width: 50}}><span>Профсоюз на игрока</span></th>
+        <th className={styles.verticalLabels} style={{width: 50}}><span>Кризис</span></th>
       </tr>
       {players
-      .map((player, index) => {
-        return <tr>
-          <td>{player.name}</td>
-          <td>{player.minerLevel}</td>
-          <td>{player.capacity}</td>
-          <td>{getMiningSpeed(player.minerLevel)}</td>
-          <td>x{getMiningBoost(player.miningBoost)}</td>
-          <td>x{getRemoteMining(player.remoteMining)}</td>
-        </tr>
+        .map((player, index) => {
+          return <tr>
+            <td>{player.name}</td>
+            <td>{player.minerLevel}</td>
+            <td>{player.capacity}</td>
+            <td>{getMiningSpeed(player.minerLevel)}</td>
+            <td>x{getMiningBoost(player.miningBoost)}</td>
+            <td>x{getRemoteMining(player.remoteMining)}</td>
+            <td>x{getMiningUnityPerPlayer(player.minerUnity)}</td>
+            <td>{getCrunchAmount(player.crunch)}</td>
+          </tr>
       })}
     </table>
   </TabContainer>

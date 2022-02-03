@@ -62,7 +62,7 @@ const miningUnity = [
   1
 ]
 
-export function getMiningUnity(miningUnityLevel) {
+export function getMiningUnityPerPlayer(miningUnityLevel) {
   return miningUnity[miningUnityLevel - 1]
 }
 
